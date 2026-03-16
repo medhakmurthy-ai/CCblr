@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ramanavami Bengaluru 2026</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Classical Concert Calendar</p>
+        <h1>Ramanavami Bengaluru 2026</h1>
+        <p class="subtext">Browse concerts day by day across March and April 2026.</p>
+      </div>
+      <div class="topbar-actions">
+        <input id="searchInput" type="search" placeholder="Search artist, venue, area..." />
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="calendar-panel">
+        <div class="month-tabs" id="monthTabs"></div>
+        <div class="calendar-grid-wrap">
+          <div class="calendar-weekdays">
+            <span>Sun</span><span>Mon</span><span>Tue</span><span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+          </div>
+          <div id="calendarGrid" class="calendar-grid"></div>
+        </div>
+      </section>
+
+      <section class="details-panel">
+        <div id="daySummary" class="day-summary"></div>
+        <div id="eventList" class="event-list"></div>
+      </section>
+    </main>
+  </div>
+
+  <template id="venueTemplate">
+    <article class="venue-card">
+      <div class="venue-header">
+        <h3 class="venue-name"></h3>
+      </div>
+      <div class="venue-events"></div>
+    </article>
+  </template>
+
+  <template id="eventTemplate">
+    <div class="event-row">
+      <div class="event-time"></div>
+      <div class="event-main">
+        <div class="event-title"></div>
+        <div class="event-access"></div>
+      </div>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+</body>
+</html>
