@@ -88,9 +88,21 @@ h1{
   background:var(--panel-2);
 }
 
-/* PREMIUM WATERMARK / BRANDING */
+.calendar-caveat{
+  margin-bottom:12px;
+  padding:12px 14px;
+  border:1px solid rgba(138,90,43,.14);
+  border-radius:14px;
+  background:rgba(239,225,209,.55);
+  color:rgba(84,66,49,.9);
+  font-size:.92rem;
+  line-height:1.45;
+  font-weight:600;
+}
+
 .calendar-watermark-top,
-.calendar-watermark-bottom{
+.calendar-watermark-bottom,
+.details-watermark{
   display:flex;
   justify-content:space-between;
   align-items:center;
@@ -117,18 +129,11 @@ h1{
   color:rgba(92,80,68,.68);
 }
 
-.event-watermark{
-  margin-top:14px;
-  padding-top:10px;
+.details-watermark{
+  margin-top:18px;
+  padding-top:12px;
   border-top:1px solid rgba(138,90,43,.12);
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:10px;
   color:rgba(92,80,68,.68);
-  font-size:11px;
-  font-weight:600;
-  letter-spacing:.03em;
 }
 
 .month-tabs{
@@ -345,9 +350,14 @@ h1{
     gap:6px;
   }
 
+  .calendar-caveat{
+    font-size:.84rem;
+    padding:10px 12px;
+  }
+
   .calendar-watermark-top,
   .calendar-watermark-bottom,
-  .event-watermark{
+  .details-watermark{
     flex-direction:column;
     align-items:flex-start;
     gap:4px;
