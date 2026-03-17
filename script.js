@@ -23,16 +23,20 @@ fetch("data.json")
   })
   .then(data => {
     appData = data;
+
     const monthKeys = [...new Set(appData.days.map(d => d.date.slice(0, 7)))];
     currentMonthKey = monthKeys[0];
+
     const firstWithEvents = appData.days.find(d => d.venues && d.venues.length);
     selectedDate = firstWithEvents ? firstWithEvents.date : appData.days[0].date;
+
     renderTabs(monthKeys);
     renderCalendar();
     renderDetails();
   })
   .catch(err => {
     daySummary.innerHTML = `<h2>Could not load calendar</h2><p>${err.message}</p>`;
+    eventList.innerHTML = "";
   });
 
 searchInput.addEventListener("input", (e) => {
@@ -43,6 +47,7 @@ searchInput.addEventListener("input", (e) => {
 
 function renderTabs(monthKeys) {
   monthTabs.innerHTML = "";
+
   monthKeys.forEach(key => {
     const [year, month] = key.split("-");
     const label = new Date(Number(year), Number(month) - 1, 1).toLocaleString("en-IN", {
@@ -56,10 +61,12 @@ function renderTabs(monthKeys) {
 
     btn.addEventListener("click", () => {
       currentMonthKey = key;
+
       const monthDays = getMonthDays();
       if (!monthDays.some(d => d.date === selectedDate)) {
         selectedDate = monthDays[0]?.date || null;
       }
+
       renderTabs(monthKeys);
       renderCalendar();
       renderDetails();
@@ -80,10 +87,12 @@ function dayMatchesQuery(day) {
     day.date,
     day.weekday,
     day.raw_text,
-    ...(day.venues || []).map(
-      v => v.venue + " " + (v.events || []).map(e => `${e.time} ${e.title} ${e.access}`).join(" ")
+    ...(day.venues || []).map(v =>
+      v.venue + " " + (v.events || []).map(e => `${e.time} ${e.title} ${e.access}`).join(" ")
     )
-  ].join(" ").toLowerCase();
+  ]
+    .join(" ")
+    .toLowerCase();
 
   return hay.includes(currentQuery);
 }
@@ -91,6 +100,7 @@ function dayMatchesQuery(day) {
 function renderCalendar() {
   const monthDays = getMonthDays();
   calendarGrid.innerHTML = "";
+
   if (!monthDays.length) return;
 
   const firstDate = new Date(monthDays[0].date + "T00:00:00");
@@ -104,6 +114,7 @@ function renderCalendar() {
 
   monthDays.forEach(day => {
     const matches = dayMatchesQuery(day);
+
     const el = document.createElement("button");
     el.className =
       "day-cell" +
@@ -132,10 +143,14 @@ function renderDetails() {
 
   const visibleVenues = (day.venues || []).filter(venue => {
     if (!currentQuery) return true;
+
     const hay = [
       venue.venue,
       ...(venue.events || []).map(e => `${e.time} ${e.title} ${e.access}`)
-    ].join(" ").toLowerCase();
+    ]
+      .join(" ")
+      .toLowerCase();
+
     return hay.includes(currentQuery);
   });
 
@@ -165,15 +180,6 @@ function renderDetails() {
       container.appendChild(row);
     });
 
-    const watermark = document.createElement("div");
-    watermark.className = "event-watermark";
-    watermark.setAttribute("aria-hidden", "true");
-    watermark.innerHTML = `
-      <span>Compiled by Medha Chodavarapu</span>
-      <span>Instagram:@medha.kc</span>
-    `;
-
-    container.appendChild(watermark);
     eventList.appendChild(card);
   });
 }
