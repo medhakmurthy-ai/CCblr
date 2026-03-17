@@ -1,4 +1,3 @@
-
 let appData = null;
 let currentMonthKey = null;
 let selectedDate = null;
@@ -42,14 +41,19 @@ searchInput.addEventListener("input", (e) => {
   renderDetails();
 });
 
-function renderTabs(monthKeys){
+function renderTabs(monthKeys) {
   monthTabs.innerHTML = "";
   monthKeys.forEach(key => {
     const [year, month] = key.split("-");
-    const label = new Date(Number(year), Number(month)-1, 1).toLocaleString("en-IN", {month:"long", year:"numeric"});
+    const label = new Date(Number(year), Number(month) - 1, 1).toLocaleString("en-IN", {
+      month: "long",
+      year: "numeric"
+    });
+
     const btn = document.createElement("button");
     btn.className = "month-tab" + (key === currentMonthKey ? " active" : "");
     btn.textContent = label;
+
     btn.addEventListener("click", () => {
       currentMonthKey = key;
       const monthDays = getMonthDays();
@@ -60,27 +64,35 @@ function renderTabs(monthKeys){
       renderCalendar();
       renderDetails();
     });
+
     monthTabs.appendChild(btn);
   });
 }
 
-function getMonthDays(){
+function getMonthDays() {
   return appData.days.filter(d => d.date.startsWith(currentMonthKey));
 }
 
-function dayMatchesQuery(day){
+function dayMatchesQuery(day) {
   if (!currentQuery) return true;
+
   const hay = [
-    day.date, day.weekday, day.raw_text,
-    ...(day.venues || []).map(v => v.venue + " " + (v.events || []).map(e => `${e.time} ${e.title} ${e.access}`).join(" "))
+    day.date,
+    day.weekday,
+    day.raw_text,
+    ...(day.venues || []).map(
+      v => v.venue + " " + (v.events || []).map(e => `${e.time} ${e.title} ${e.access}`).join(" ")
+    )
   ].join(" ").toLowerCase();
+
   return hay.includes(currentQuery);
 }
 
-function renderCalendar(){
+function renderCalendar() {
   const monthDays = getMonthDays();
   calendarGrid.innerHTML = "";
   if (!monthDays.length) return;
+
   const firstDate = new Date(monthDays[0].date + "T00:00:00");
   const startOffset = firstDate.getDay();
 
@@ -93,30 +105,37 @@ function renderCalendar(){
   monthDays.forEach(day => {
     const matches = dayMatchesQuery(day);
     const el = document.createElement("button");
-    el.className = "day-cell" +
+    el.className =
+      "day-cell" +
       (day.venues?.length ? " has-events" : "") +
       (day.date === selectedDate ? " selected" : "") +
       (!matches ? " filtered-out" : "");
+
     el.innerHTML = `
       <div class="day-number">${day.day}</div>
       <div class="badge">${day.venues?.length || 0} event${(day.venues?.length || 0) === 1 ? "" : "s"}</div>
     `;
+
     el.addEventListener("click", () => {
       selectedDate = day.date;
       renderCalendar();
       renderDetails();
     });
+
     calendarGrid.appendChild(el);
   });
 }
 
-function renderDetails(){
+function renderDetails() {
   const day = appData.days.find(d => d.date === selectedDate);
   if (!day) return;
 
   const visibleVenues = (day.venues || []).filter(venue => {
     if (!currentQuery) return true;
-    const hay = [venue.venue, ...(venue.events||[]).map(e => `${e.time} ${e.title} ${e.access}`)].join(" ").toLowerCase();
+    const hay = [
+      venue.venue,
+      ...(venue.events || []).map(e => `${e.time} ${e.title} ${e.access}`)
+    ].join(" ").toLowerCase();
     return hay.includes(currentQuery);
   });
 
@@ -126,6 +145,7 @@ function renderDetails(){
   `;
 
   eventList.innerHTML = "";
+
   if (!visibleVenues.length) {
     eventList.innerHTML = `<div class="empty-state">No matching events for this day.</div>`;
     return;
@@ -134,6 +154,7 @@ function renderDetails(){
   visibleVenues.forEach(venue => {
     const card = document.getElementById("venueTemplate").content.firstElementChild.cloneNode(true);
     card.querySelector(".venue-name").textContent = venue.venue;
+
     const container = card.querySelector(".venue-events");
 
     (venue.events || []).forEach(evt => {
@@ -144,6 +165,15 @@ function renderDetails(){
       container.appendChild(row);
     });
 
+    const watermark = document.createElement("div");
+    watermark.className = "event-watermark";
+    watermark.setAttribute("aria-hidden", "true");
+    watermark.innerHTML = `
+      <span>Compiled by Medha Chodavarapu</span>
+      <span>Instagram:@medha.kc</span>
+    `;
+
+    container.appendChild(watermark);
     eventList.appendChild(card);
   });
 }
