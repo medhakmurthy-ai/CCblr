@@ -464,6 +464,14 @@
       "weekday": "Friday",
       "raw_text": "Seshadripuram College\n6:30 PM - Ramakrishnan Murthy ; Sayee Rakshith ; Delhi S. Sairam (Free)\n\nSri Vani School, Basaveshwarnagar\n6:30 PM - Sunil Gargyan ; Keshav Mohankumar ; B.S. Prashanth ; A.S.N. Swamy (Free)\n\nSurabharati - HRBR layout\n6:30 PM - Seshalatha Vishwanath & party (Free)",
       "venues": [
+       {
+          "venue": "Fort High School, Chamarajpet",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Abhishek Raghuram ; HM Smitha; Sumesh Narayanan; Sunaad Anoor",
+              "access": "Paid"
+            },
         {
           "venue": "Seshadripuram College",
           "events": [
