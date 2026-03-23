@@ -534,6 +534,26 @@
             }
           ]
         },
+      {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Veena by Jayanthi Kumaresh & team",
+              "access": "Paid"
+            }
+          ]
+        },
+        {
+          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Students of Srikantam Nagendra Shastry",
+              "access": "Free"
+            }
+          ]
+        },
         {
           "venue": "Surabharati - HRBR layout",
           "events": [
@@ -547,15 +567,16 @@
       ]
     },
     {
-          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
+          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
           "events": [
             {
-              "time": "6:30 PM",
-              "title": "Students of Srikantam Nagendra Shastry",
+              "time": "6:00 PM",
+              "title": "Amrutha Venkatesh; Bombay R Madhavan; HS Sudhindra; GS Ramanujan",
               "access": "Free"
             }
           ]
         },
+    
     {
       "date": "2026-03-28",
       "day": 28,
@@ -599,6 +620,26 @@
         }
       ]
     },
+    {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Sooryagayathri & team",
+              "access": "Paid"
+            }
+          ]
+        },
+      {
+          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
+          "events": [
+            {
+              "time": "6:00 PM",
+              "title": "Hindusthani - Nagaraj Havaldar; Omkarnath Havaldar; Sameer Havaldar; Kedarnath Havaldar",
+              "access": "Free"
+            }
+          ]
+        },
     {
       "date": "2026-03-29",
       "day": 29,
@@ -673,6 +714,26 @@
       ]
     },
     {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Hindusthani flute - Praveen Godkhindhi , Shadaj Godkhindi & team",
+              "access": "Paid"
+            }
+          ]
+        },
+     {
+          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
+          "events": [
+            {
+              "time": "6:00 PM",
+              "title": "Bangalore S Shankar; Janardhan Srinath; V Praveen; Ranganath Chakravarthy",
+              "access": "Free"
+            }
+          ]
+        },
+    {
       "date": "2026-03-30",
       "day": 30,
       "weekday": "Monday",
@@ -726,6 +787,26 @@
       ]
     },
     {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Pantula Rama & team",
+              "access": "Paid"
+            }
+          ]
+        },
+     {
+          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
+          "events": [
+            {
+              "time": "6:00 PM",
+              "title": "Veena - Charulatha Chandrasekhar; Kaushik Sridhar; Srinidhi Koundinya",
+              "access": "Free"
+            }
+          ]
+        },
+    {
       "date": "2026-03-31",
       "day": 31,
       "weekday": "Tuesday",
@@ -773,6 +854,26 @@
         }
       ]
     },
+    {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Hindusthani Vocal - Jayatheerth Mevundi & team",
+              "access": "Paid"
+            }
+          ]
+        },
+     {
+          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
+          "events": [
+            {
+              "time": "6:00 PM",
+              "title": "Flute- JB Sruti Sagar; Vaibhav Ramani; BS Prashanth; Anil Parashara",
+              "access": "Free"
+            }
+          ]
+        },
     {
       "date": "2026-04-01",
       "day": 1,
@@ -827,6 +928,16 @@
       ]
     },
     {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Divya Raghavan & team",
+              "access": "Paid"
+            }
+          ]
+        },
+    {
       "date": "2026-04-02",
       "day": 2,
       "weekday": "Thursday",
@@ -857,7 +968,7 @@
             },
             {
               "time": "6:30 PM",
-              "title": "Special Karnatic Music Concert by Dr. Vidyabhushana; Pradesh achar; Bangalore V Praveen; Raghunandan",
+              "title": "Dr. Vidyabhushana; Pradesh Achar; Bangalore V Praveen; Raghunandan",
               "access": "Paid"
             }
           ]
@@ -884,6 +995,16 @@
         }
       ]
     },
+    {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "RK Padmanabha & team",
+              "access": "Paid"
+            }
+          ]
+        },
     {
       "date": "2026-04-03",
       "day": 3,
@@ -942,6 +1063,16 @@
         }
       ]
     },
+    {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Trichur Brothers and team",
+              "access": "Paid"
+            }
+          ]
+        },
     {
       "date": "2026-04-04",
       "day": 4,
@@ -1015,6 +1146,16 @@
         }
       ]
     },
+    {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Jugalbandhi -U Rajesh - Ambi Subramaniam & team",
+              "access": "Paid"
+            }
+          ]
+        },
     {
       "date": "2026-04-05",
       "day": 5,
