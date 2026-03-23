@@ -380,6 +380,16 @@
             }
           ]
         },
+          {
+          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "KS Kartikeya Sharma & team",
+              "access": "Free"
+            }
+          ]
+        },
         {
           "venue": "Surabharati - HRBR layout",
           "events": [
@@ -392,16 +402,7 @@
         }
       ]
     },
-    {
-          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "KS Kartikeya Sharma & team",
-              "access": "Free"
-            }
-          ]
-        },
+  
     {
       "date": "2026-03-25",
       "day": 25,
@@ -476,6 +477,16 @@
             }
           ]
         },
+           {
+          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Vocal by students of Jayaranga Sangeetha Shaale",
+              "access": "Free"
+            }
+          ]
+        }, 
         {
           "venue": "Surabharati - HRBR layout",
           "events": [
@@ -488,16 +499,7 @@
         }
       ]
     },
-    {
-          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Vocal by students of Jayaranga Sangeetha Shaale",
-              "access": "Free"
-            }
-          ]
-        }, 
+ 
     {
       "date": "2026-03-27",
       "day": 27,
@@ -554,6 +556,16 @@
             }
           ]
         },
+         {
+          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
+          "events": [
+            {
+              "time": "6:00 PM",
+              "title": "Amrutha Venkatesh; Bombay R Madhavan; HS Sudhindra; GS Ramanujan",
+              "access": "Free"
+            }
+          ]
+        },
         {
           "venue": "Surabharati - HRBR layout",
           "events": [
@@ -566,16 +578,7 @@
         }
       ]
     },
-    {
-          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
-          "events": [
-            {
-              "time": "6:00 PM",
-              "title": "Amrutha Venkatesh; Bombay R Madhavan; HS Sudhindra; GS Ramanujan",
-              "access": "Free"
-            }
-          ]
-        },
+   
     
     {
       "date": "2026-03-28",
@@ -608,19 +611,7 @@
             }
           ]
         },
-        {
-          "venue": "Seshadripuram College",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Charumathi Raghuraman; Anantha R. Krishnan",
-              "access": "Free"
-            }
-          ]
-        }
-      ]
-    },
-    {
+          {
           "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
           "events": [
             {
@@ -640,7 +631,19 @@
             }
           ]
         },
-    {
+        {
+          "venue": "Seshadripuram College",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Charumathi Raghuraman; Anantha R. Krishnan",
+              "access": "Free"
+            }
+          ]
+        }
+      ]
+    },
+      {
       "date": "2026-03-29",
       "day": 29,
       "weekday": "Sunday",
@@ -702,18 +705,6 @@
           ]
         },
         {
-          "venue": "Seshadripuram College",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Bharat Sundar ;Sayee Rakshith ; Delhi S. Sairam ;Anirudh Athreya",
-              "access": "Free"
-            }
-          ]
-        }
-      ]
-    },
-    {
           "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
           "events": [
             {
@@ -733,6 +724,18 @@
             }
           ]
         },
+        {
+          "venue": "Seshadripuram College",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Bharat Sundar ;Sayee Rakshith ; Delhi S. Sairam ;Anirudh Athreya",
+              "access": "Free"
+            }
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-03-30",
       "day": 30,
@@ -775,18 +778,6 @@
           ]
         },
         {
-          "venue": "Sri Rama Mandiram Trust, NR colony",
-          "events": [
-            {
-              "time": "7:15 PM",
-              "title": "Aniruddh Aithal & team",
-              "access": "Free"
-            }
-          ]
-        }
-      ]
-    },
-    {
           "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
           "events": [
             {
@@ -806,7 +797,19 @@
             }
           ]
         },
-    {
+        {
+          "venue": "Sri Rama Mandiram Trust, NR colony",
+          "events": [
+            {
+              "time": "7:15 PM",
+              "title": "Aniruddh Aithal & team",
+              "access": "Free"
+            }
+          ]
+        }
+      ]
+    },
+      {
       "date": "2026-03-31",
       "day": 31,
       "weekday": "Tuesday",
@@ -838,23 +841,6 @@
           ]
         },
         {
-          "venue": "Seshadripuram College",
-          "events": [
-            {
-              "time": "7:30 PM",
-              "title": "Srividya Davuluri & Party",
-              "access": "Free"
-            },
-            {
-              "time": "9:15 PM",
-              "title": "Snigdha Desiraju & Party",
-              "access": "Free"
-            }
-          ]
-        }
-      ]
-    },
-    {
           "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
           "events": [
             {
@@ -874,7 +860,24 @@
             }
           ]
         },
-    {
+        {
+          "venue": "Seshadripuram College",
+          "events": [
+            {
+              "time": "7:30 PM",
+              "title": "Srividya Davuluri & Party",
+              "access": "Free"
+            },
+            {
+              "time": "9:15 PM",
+              "title": "Snigdha Desiraju & Party",
+              "access": "Free"
+            }
+          ]
+        }
+      ]
+    },
+     {
       "date": "2026-04-01",
       "day": 1,
       "weekday": "Wednesday",
@@ -915,6 +918,16 @@
             }
           ]
         },
+          {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Divya Raghavan & team",
+              "access": "Paid"
+            }
+          ]
+        },
         {
           "venue": "Sri Rama Mandiram Trust, NR colony",
           "events": [
@@ -927,17 +940,7 @@
         }
       ]
     },
-    {
-          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Divya Raghavan & team",
-              "access": "Paid"
-            }
-          ]
-        },
-    {
+      {
       "date": "2026-04-02",
       "day": 2,
       "weekday": "Thursday",
@@ -983,6 +986,16 @@
             }
           ]
         },
+         {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "RK Padmanabha & team",
+              "access": "Paid"
+            }
+          ]
+        },
         {
           "venue": "Sri Vani School, Basaveshwarnagar",
           "events": [
@@ -995,17 +1008,7 @@
         }
       ]
     },
-    {
-          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "RK Padmanabha & team",
-              "access": "Paid"
-            }
-          ]
-        },
-    {
+       {
       "date": "2026-04-03",
       "day": 3,
       "weekday": "Friday",
@@ -1051,6 +1054,16 @@
             }
           ]
         },
+         {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Trichur Brothers and team",
+              "access": "Paid"
+            }
+          ]
+        },
         {
           "venue": "Sri Vani School, Basaveshwarnagar",
           "events": [
@@ -1063,17 +1076,7 @@
         }
       ]
     },
-    {
-          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Trichur Brothers and team",
-              "access": "Paid"
-            }
-          ]
-        },
-    {
+       {
       "date": "2026-04-04",
       "day": 4,
       "weekday": "Saturday",
@@ -1134,6 +1137,16 @@
             }
           ]
         },
+         {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Jugalbandhi -U Rajesh - Ambi Subramaniam & team",
+              "access": "Paid"
+            }
+          ]
+        },
         {
           "venue": "Sri Rama Mandiram Trust, NR colony",
           "events": [
@@ -1146,17 +1159,7 @@
         }
       ]
     },
-    {
-          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Jugalbandhi -U Rajesh - Ambi Subramaniam & team",
-              "access": "Paid"
-            }
-          ]
-        },
-    {
+       {
       "date": "2026-04-05",
       "day": 5,
       "weekday": "Sunday",
