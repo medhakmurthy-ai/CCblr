@@ -360,17 +360,7 @@
       "weekday": "Tuesday",
       "raw_text": "Rama Mandir, Jayanagar, 9 th block, East end\n6:30 PM - Aishwarya & Saundarya & team (Free)\n\nSri Vani School, Basaveshwarnagar\n6:30 PM - Siddharth Belmannu ; Niranjan Hegde ; Yogesh Bhat (Free)\n\nSurabharati - HRBR layout\n6:30 PM - Navaneetha Krishna & party (Free)",
       "venues": [
-      	{
-          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "KS Kartikeya Sharma & team",
-              "access": "Free"
-            }
-          ]
-        },
-  {
+      	  {
           "venue": "Rama Mandir, Jayanagar, 9 th block, East end",
           "events": [
             {
@@ -402,6 +392,16 @@
         }
       ]
     },
+    {
+          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "KS Kartikeya Sharma & team",
+              "access": "Free"
+            }
+          ]
+        },
     {
       "date": "2026-03-25",
       "day": 25,
@@ -456,17 +456,7 @@
       "weekday": "Thursday",
       "raw_text": "Sri Vani School, Basaveshwarnagar\n6:30 PM - Sunaada Gana Sri Ramamrita Paana - Sangeeta Roopaka (Multimedia presentation), directed by Dr. Nagamani Srinath; Vocals: Uma Kumar, Pavani Bharadwaj, Deepti Srinath, Bhagyalakshmi S., Chaitra Raghunandan, Padmashree Prasad, Lakshmi Amar, Savita Vasu, Vijaya Rajiv, Harini; Phanindra Bhaskar ; Kartik Mani (Drums); Pranav Guruprassanna ; Samarth Chowle (Free)\n\nSurabharati - HRBR layout\n6:30 PM - Kamala Deepthi & party (Free)",
       "venues": [
-      {
-          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Vocal by students of Jayaranga Sangeetha Shaale",
-              "access": "Free"
-            }
-          ]
-        }, 
-        {
+              {
           "venue": "Seshadripuram College",
           "events": [
             {
@@ -499,22 +489,22 @@
       ]
     },
     {
+          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Vocal by students of Jayaranga Sangeetha Shaale",
+              "access": "Free"
+            }
+          ]
+        }, 
+    {
       "date": "2026-03-27",
       "day": 27,
       "weekday": "Friday",
       "raw_text": "Seshadripuram College\n6:30 PM - Ramakrishnan Murthy ; Sayee Rakshith ; Delhi S. Sairam (Free)\n\nSri Vani School, Basaveshwarnagar\n6:30 PM - Sunil Gargyan ; Keshav Mohankumar ; B.S. Prashanth ; A.S.N. Swamy (Free)\n\nSurabharati - HRBR layout\n6:30 PM - Seshalatha Vishwanath & party (Free)",
       "venues": [
-       {
-          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Students of Srikantam Nagendra Shastry",
-              "access": "Free"
-            }
-          ]
-        },
-        {
+               {
           "venue": "Fort High School, Chamarajpet",
           "events": [
             {
@@ -556,6 +546,16 @@
         }
       ]
     },
+    {
+          "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Students of Srikantam Nagendra Shastry",
+              "access": "Free"
+            }
+          ]
+        },
     {
       "date": "2026-03-28",
       "day": 28,
