@@ -875,6 +875,16 @@
             }
           ]
         },
+        {
+          "venue": "GV Centenary Hall, Jayarama Seva Mandali, 8th block,Jayanagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Kunnakudi Balamuralikrishna & team",
+              "access": "Free"
+            }
+          ]
+        },
             {
           "venue": "Sri Rama Mandiram Trust, NR colony",
           "events": [
@@ -922,7 +932,7 @@
           "venue": "Seshadripuram College",
           "events": [
             {
-              "time": "6 PM",
+              "time": "6:00 PM",
               "title": "Srividya Davuluri & Party",
               "access": "Free"
             },
@@ -953,6 +963,16 @@
             }
           ]
         },
+        {
+          "venue": "GV Centenary Hall, Jayarama Seva Mandali, 8th block,Jayanagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Aishwarya Vidya Raghunath & team",
+              "access": "Free"
+            }
+          ]
+        },
                {
           "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
           "events": [
@@ -971,6 +991,16 @@
       "weekday": "Wednesday",
       "raw_text": "Fort High School, Chamarajpet\na. 5:00 PM-6:00 PM - Dattaprasad Avadhooth and Party (Free)\nb. 6:30 PM - Special Discourse on 'A Love Note Through Hamsa' by Sri Dushyanth Sridhar (Paid - on website)\n\nSeshadripuram College\n6:30 PM - J.B. Sruti Sagar ; Sruthi Sarathy ; K.V. Prasad (Free)\n\nSri Vani School, Basaveshwarnagar\n6:30 PM - Ramakrishnan Murthy ; H.M. Smitha ; Vijay Natesan ; Sunaad Anoor (Free)\n\nSri Rama Mandiram Trust, NR colony\n7:15 PM - Rakesh Dutt & team (Free)",
       "venues": [
+         {
+          "venue": "32/A Durga Parameshwari Layout, BSK 3rd stage",
+          "events": [
+            {
+              "time": "9:00 AM",
+              "title": "Hindusthani - Keerthan Holla & team",
+              "access": "Free"
+            }
+          ]
+        },
         {
           "venue": "Fort High School, Chamarajpet",
           "events": [
@@ -1013,6 +1043,16 @@
               "time": "6:30 PM",
               "title": "Divya Raghavan & team",
               "access": "Paid"
+            }
+          ]
+        },
+        {
+          "venue": "GV Centenary Hall, Jayarama Seva Mandali, 8th block,Jayanagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Pavani Bharadwaj & team",
+              "access": "Free"
             }
           ]
         },
@@ -1084,7 +1124,17 @@
             }
           ]
         },
-        {
+             {
+          "venue": "32/A Durga Parameshwari Layout, BSK 3rd stage",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Hindusthani - Nagaraj Havaldar & team",
+              "access": "Free"
+            }
+          ]
+        },
+              {
           "venue": "Sri Vani School, Basaveshwarnagar",
           "events": [
             {
@@ -1149,6 +1199,16 @@
               "time": "6:30 PM",
               "title": "Trichur Brothers and team",
               "access": "Paid"
+            }
+          ]
+        },
+          {
+          "venue": "GV Centenary Hall, Jayarama Seva Mandali, 8th block,Jayanagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Percussion - Ravi Shankar Sharma & team",
+              "access": "Free"
             }
           ]
         },
@@ -1232,6 +1292,16 @@
               "time": "6:30 PM",
               "title": "Jugalbandhi -U Rajesh - Ambi Subramaniam & team",
               "access": "Paid"
+            }
+          ]
+        },
+          {
+          "venue": "GV Centenary Hall, Jayarama Seva Mandali, 8th block,Jayanagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Rahul Vellal & team",
+              "access": "Free"
             }
           ]
         },
