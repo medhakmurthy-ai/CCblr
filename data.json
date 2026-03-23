@@ -436,7 +436,17 @@
       "weekday": "Thursday",
       "raw_text": "Sri Vani School, Basaveshwarnagar\n6:30 PM - Sunaada Gana Sri Ramamrita Paana - Sangeeta Roopaka (Multimedia presentation), directed by Dr. Nagamani Srinath; Vocals: Uma Kumar, Pavani Bharadwaj, Deepti Srinath, Bhagyalakshmi S., Chaitra Raghunandan, Padmashree Prasad, Lakshmi Amar, Savita Vasu, Vijaya Rajiv, Harini; Phanindra Bhaskar ; Kartik Mani (Drums); Pranav Guruprassanna ; Samarth Chowle (Free)\n\nSurabharati - HRBR layout\n6:30 PM - Kamala Deepthi & party (Free)",
       "venues": [
-        {
+       {
+          "venue": "Seshadripuram College",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Nadaswaram - BS Ramesh Babu; Babu Chandrasekhar; BR Venkatesh & Chennai Mani",
+              "access": "Free"
+            }
+          ]
+        },
+{
           "venue": "Sri Vani School, Basaveshwarnagar",
           "events": [
             {
