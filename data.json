@@ -380,12 +380,22 @@
             }
           ]
         },
+        {
+          "venue": "Prashanta Ganapathi Temple, Prashanthnagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Jugalbandhi - KJ Dilip-Anupama Bhagwat; Meghashyam Keshav; Anirudh Bhat",
+              "access": "Free"
+            }
+          ]
+        },
           {
           "venue": "Sri Anjaneya & Raghavendra Swamy temple, West Park Malleshwaram",
           "events": [
             {
               "time": "6:30 PM",
-              "title": "KS Kartikeya Sharma & team",
+              "title": "HS Kartikeya Sharma & team",
               "access": "Free"
             }
           ]
@@ -506,7 +516,17 @@
       "weekday": "Friday",
       "raw_text": "Seshadripuram College\n6:30 PM - Ramakrishnan Murthy ; Sayee Rakshith ; Delhi S. Sairam (Free)\n\nSri Vani School, Basaveshwarnagar\n6:30 PM - Sunil Gargyan ; Keshav Mohankumar ; B.S. Prashanth ; A.S.N. Swamy (Free)\n\nSurabharati - HRBR layout\n6:30 PM - Seshalatha Vishwanath & party (Free)",
       "venues": [
-               {
+              {
+          "venue": "SBI RWA Hall, Basaveshwarnagar",
+          "events": [
+            {
+              "time": "11 am",
+              "title": "Lavanya Krishnamurthy; Achyuta Rao; Sunaada Krishna; Bhargava Halambi",
+              "access": "Free"
+            }
+          ]
+        },
+        {
           "venue": "Fort High School, Chamarajpet",
           "events": [
             {
@@ -730,6 +750,16 @@
             {
               "time": "6:30 PM",
               "title": "Bharat Sundar ;Sayee Rakshith ; Delhi S. Sairam ;Anirudh Athreya",
+              "access": "Free"
+            }
+          ]
+        },
+        {
+          "venue": "Indian Music Experience Museum",
+          "events": [
+            {
+              "time": "7 PM",
+              "title": "Lec-performance (Women Composers)- Sriranjani Tapasya; VSP Gayatri Shivani; Praveen Sparsh",
               "access": "Free"
             }
           ]
