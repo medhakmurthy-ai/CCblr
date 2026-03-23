@@ -400,6 +400,16 @@
             }
           ]
         },
+         {
+          "venue": "Rama Mandira, Vyalikaval",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Siddharth Prakash; YG Srilatha; Nikshith Puttur; Sukanya Ramgopal",
+              "access": "Free"
+            }
+          ]
+        },
         {
           "venue": "Surabharati - HRBR layout",
           "events": [
@@ -526,11 +536,31 @@
             }
           ]
         },
+         {
+          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
+          "events": [
+            {
+              "time": "6:00 PM",
+              "title": "Amrutha Venkatesh; Bombay R Madhavan; HS Sudhindra; GS Ramanujan",
+              "access": "Free"
+            }
+          ]
+        },
+         {
+          "venue": "32/A 7th cross, Durga Parameshwari layout, BSK 3rd stage",
+          "events": [
+            {
+              "time": "6:15 PM",
+              "title": "Anirudh Aithal & team",
+              "access": "Free"
+            }
+          ]
+        },
         {
           "venue": "Fort High School, Chamarajpet",
           "events": [
             {
-              "time": "6:45 PM",
+              "time": "6:30 PM",
               "title": "Abhishek Raghuram ; HM Smitha; Sumesh Narayanan; Sunaad Anoor",
               "access": "Paid"
             }
@@ -577,16 +607,6 @@
           ]
         },
          {
-          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
-          "events": [
-            {
-              "time": "6:00 PM",
-              "title": "Amrutha Venkatesh; Bombay R Madhavan; HS Sudhindra; GS Ramanujan",
-              "access": "Free"
-            }
-          ]
-        },
-        {
           "venue": "Surabharati - HRBR layout",
           "events": [
             {
@@ -598,9 +618,7 @@
         }
       ]
     },
-   
-    
-    {
+   {
       "date": "2026-03-28",
       "day": 28,
       "weekday": "Saturday",
@@ -631,23 +649,33 @@
             }
           ]
         },
-          {
-          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Sooryagayathri & team",
-              "access": "Paid"
-            }
-          ]
-        },
-      {
+         {
           "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
           "events": [
             {
               "time": "6:00 PM",
               "title": "Hindusthani - Nagaraj Havaldar; Omkarnath Havaldar; Sameer Havaldar; Kedarnath Havaldar",
               "access": "Free"
+            }
+          ]
+        },
+         {
+          "venue": "32/A 7th cross, Durga Parameshwari layout, BSK 3rd stage",
+          "events": [
+            {
+              "time": "6:15 PM",
+              "title": "Prasanna Korthi & team",
+              "access": "Free"
+            }
+          ]
+        },
+        {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Sooryagayathri & team",
+              "access": "Paid"
             }
           ]
         },
@@ -724,17 +752,7 @@
             }
           ]
         },
-        {
-          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
-          "events": [
-            {
-              "time": "6:30 PM",
-              "title": "Hindusthani flute - Praveen Godkhindhi , Shadaj Godkhindi & team",
-              "access": "Paid"
-            }
-          ]
-        },
-     {
+           {
           "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
           "events": [
             {
@@ -745,6 +763,26 @@
           ]
         },
         {
+          "venue": "32/A 7th cross, Durga Parameshwari layout, BSK 3rd stage",
+          "events": [
+            {
+              "time": "6:15 PM",
+              "title": "Sameer Kulkarni-Hiranmayee Kulkarni & team",
+              "access": "Free"
+            }
+          ]
+        },
+        {
+          "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
+          "events": [
+            {
+              "time": "6:30 PM",
+              "title": "Hindusthani flute - Praveen Godkhindhi , Shadaj Godkhindi & team",
+              "access": "Paid"
+            }
+          ]
+        },
+          {
           "venue": "Seshadripuram College",
           "events": [
             {
@@ -787,6 +825,26 @@
             }
           ]
         },
+         {
+          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
+          "events": [
+            {
+              "time": "6:00 PM",
+              "title": "Veena - Charulatha Chandrasekhar; Kaushik Sridhar; Srinidhi Koundinya",
+              "access": "Free"
+            }
+          ]
+        },
+        {
+          "venue": "32/A 7th cross, Durga Parameshwari layout, BSK 3rd stage",
+          "events": [
+            {
+              "time": "6:15 PM",
+              "title": "Aditya Pallaki & team",
+              "access": "Free"
+            }
+          ]
+        },
         {
           "venue": "Seshadripuram College",
           "events": [
@@ -817,17 +875,7 @@
             }
           ]
         },
-     {
-          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
-          "events": [
             {
-              "time": "6:00 PM",
-              "title": "Veena - Charulatha Chandrasekhar; Kaushik Sridhar; Srinidhi Koundinya",
-              "access": "Free"
-            }
-          ]
-        },
-        {
           "venue": "Sri Rama Mandiram Trust, NR colony",
           "events": [
             {
@@ -860,6 +908,40 @@
             }
           ]
         },
+         {
+          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
+          "events": [
+            {
+              "time": "6:00 PM",
+              "title": "Flute- JB Sruti Sagar; Vaibhav Ramani; BS Prashanth; Anil Parashara",
+              "access": "Free"
+            }
+          ]
+          {
+          "venue": "Seshadripuram College",
+          "events": [
+            {
+              "time": "6 PM",
+              "title": "Srividya Davuluri & Party",
+              "access": "Free"
+            },
+            {
+              "time": "7:45 PM",
+              "title": "Snigdha Desiraju & Party",
+              "access": "Free"
+            }
+          ]
+        }
+        {
+          "venue": "32/A 7th cross, Durga Parameshwari layout, BSK 3rd stage",
+          "events": [
+            {
+              "time": "6:15 PM",
+              "title": "Siddharth Belmannu & team",
+              "access": "Free"
+            }
+          ]
+        },
         {
           "venue": "Sri Vani School, Basaveshwarnagar",
           "events": [
@@ -870,7 +952,7 @@
             }
           ]
         },
-        {
+               {
           "venue": "Balakrishna Bayalu Ranga Mandira, BEML Layout, RR Nagar",
           "events": [
             {
@@ -879,33 +961,8 @@
               "access": "Paid"
             }
           ]
-        },
-     {
-          "venue": "Ramaseva Trust, 5th cross, 1st bock, Jayanagar",
-          "events": [
-            {
-              "time": "6:00 PM",
-              "title": "Flute- JB Sruti Sagar; Vaibhav Ramani; BS Prashanth; Anil Parashara",
-              "access": "Free"
-            }
-          ]
-        },
-        {
-          "venue": "Seshadripuram College",
-          "events": [
-            {
-              "time": "7:30 PM",
-              "title": "Srividya Davuluri & Party",
-              "access": "Free"
-            },
-            {
-              "time": "9:15 PM",
-              "title": "Snigdha Desiraju & Party",
-              "access": "Free"
-            }
-          ]
         }
-      ]
+       ]
     },
      {
       "date": "2026-04-01",
@@ -1436,12 +1493,13 @@
           "venue": "Seshadripuram College",
           "events": [
             {
-              "time": "7:30 PM",
+              "time": "6 PM",
               "title": "Sai Tejas & Party (Harmonica)",
               "access": "Free"
             },
             {
-              "time": "9:15 PM",
+              
+              "time": "7:45 PM",
               "title": "Nishanth T Rao & Party",
               "access": "Free"
             }
